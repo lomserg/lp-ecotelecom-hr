@@ -1,0 +1,43 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $light-clr;
+    line-height: 1.6;
+    font-family: $main-font;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: hidden;
+}
+
+.bg-green {
+    background-color: $primary-clr;
+}
+
+.clr-white {
+    color: #fff;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.position-relative {
+    position: relative;
+}
